@@ -46,8 +46,9 @@ docker compose up
 ```
 ・下記にアクセスして、Helloテーブル＞Helloカラム（character 10)を作成し、データも作成
 http://localhost:8080/?pgsql=db&server=db&username=app&db=app
-pass:api
+pass:app
 ・http://localhost:80 にアクセス
+
 ※DBで失敗する場合は、 http://localhost:80/hello でアクセスしてエラー出てないか確認)https://github.com/takizawa0548/next-cake-nginx-posgres
 
 実際に使う方はclone後に下記を実施してください。
