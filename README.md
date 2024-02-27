@@ -8,3 +8,8 @@
 ```
 composer install
 ```
+・プロジェクトフォルド直下に移動し、コマンドの実施
+```
+docker compose up
+```
+・http://localhost:80 にアクセス
