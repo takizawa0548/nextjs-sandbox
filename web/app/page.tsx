@@ -22,7 +22,7 @@ const HelloWorld: React.FC = () => {
 
   return (
     <div>
-      <h1>Hello, World!</h1>
+      <h1>Hello, のっぽ!</h1>
       <p>{JSON.stringify(data)}</p>
     </div>
   );

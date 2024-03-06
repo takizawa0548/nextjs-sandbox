@@ -15,10 +15,10 @@ class HelloController extends Controller
 
         // SQLクエリを実行
         $results = $connection->execute('SELECT "Hello" FROM "Hello"')->fetchAll('assoc');
-        $message = 'Hello';
-        $this->set(compact('results'));
-        $this->viewBuilder()->setOption('serialize', ['results']);
+        $message = 'のっぽ';
+        $this->set(compact('message'));
+        $this->viewBuilder()->setOption('serialize', ['message']);
 
-        return $this->response->withType('application/json')->withStringBody(json_encode(compact('results')));
+        return $this->response->withType('application/json')->withStringBody(json_encode(compact('message')));
     }
 }
