@@ -1,3 +1,6 @@
+
+
+"
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -87,8 +90,7 @@
 .modal-link:hover {
   text-decoration: underline;
 }
-
-
+"
 
 実際に使う方はclone後に下記を実施してください。
 ・webフォルダに移動し、コマンドの実施
